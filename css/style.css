@@ -70,10 +70,10 @@ p {
 .banner-header {
   font-size: 50px;
 }
-.banner-img img {
-  width: 482px;
-  height: 506px;
+.banner-item{
+  border: 2px sold red;
 }
+
 .banner-btn {
   font-weight: 500;
   font-size: 16px;
@@ -145,7 +145,7 @@ p {
   height: 290px;
 }
 .counting-area h4,
-p {
+.container-area p{
   color: white;
 }
 .counting-area p {

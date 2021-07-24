@@ -89,11 +89,11 @@ p {
 .card {
   box-shadow: 0px 10px 30px #e7ecfa;
   border-radius: 15px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.card:hover{
-    transform: scale(1.1);
-    box-shadow: 5px 5px grey;
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px grey;
 }
 .notepad-icon {
   padding: 35px;
@@ -109,3 +109,28 @@ p {
   padding: 35px;
   background-color: #ffa03a;
 }
+/* Card section end */
+
+/* article section start */
+
+.article-details h1 {
+  font-size: 35px;
+}
+.article-details p {
+  font-size: 16px;
+  text-align: justify ;
+}
+.article-btn {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: linear-gradient(270deg, #ffac77 0%, #fd8b94 100%);
+  box-shadow: 0px 3px 12px;
+  border-radius: 48px;
+  padding: 18px 50px;
+}
+.article-img img{
+    width: 430px;
+    height: 490px;
+}
+/* Article section end */

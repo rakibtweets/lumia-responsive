@@ -95,19 +95,19 @@ p {
   transform: scale(1.1);
   box-shadow: 5px 5px grey;
 }
-
-.notepad-icon {
-  padding: 35px;
-  background-color: #ff518b;
+.card-logo{
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+}
+.notepad-icon {
+  background-color: #ff518b;
+  
 }
 .atom-icon {
-  padding: 35px;
   background: linear-gradient(180deg, #61caff 0%, #36afeb 100%);
-  border-radius: 50%;
 }
 .bell-icon {
-  padding: 35px;
   background-color: #ffa03a;
 }
 /* Card section end */

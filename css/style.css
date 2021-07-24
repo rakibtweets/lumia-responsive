@@ -149,7 +149,8 @@ p {
   height: 290px;
 }
 .counting-area h4,
-.container-area p{
+.counting-area p
+{
   color: white;
 }
 .counting-area p {

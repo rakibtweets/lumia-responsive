@@ -95,14 +95,13 @@ p {
   transform: scale(1.1);
   box-shadow: 5px 5px grey;
 }
-.card-logo{
+.card-logo {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 .notepad-icon {
   background-color: #ff518b;
-  
 }
 .atom-icon {
   background: linear-gradient(180deg, #61caff 0%, #36afeb 100%);
@@ -189,47 +188,85 @@ p {
 #services {
   margin-top: 100px;
 }
-.text-icon{
+.text-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background-image: linear-gradient(180deg, #ff518b 0%, #eb4b80 100%);
   box-shadow: 0px 10px 25px rgba(243, 124, 167, 0.4);
 }
-.user-icon{
+.user-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #C6DA4F 0%, #97C64B 100%);
+  background: linear-gradient(180deg, #c6da4f 0%, #97c64b 100%);
 }
-.achive-icon{
+.achive-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #51C0FF 0%, #4592D9 100%);
+  background: linear-gradient(180deg, #51c0ff 0%, #4592d9 100%);
 }
-.verify-icon{
+.verify-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #5177FF 0%, #4E4BEB 100%);
+  background: linear-gradient(180deg, #5177ff 0%, #4e4beb 100%);
 }
-.tick-icon{
+.tick-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #FFA551 0%, #E66E3B 100%);
-
+  background: linear-gradient(180deg, #ffa551 0%, #e66e3b 100%);
 }
-.clock-icon{
+.clock-icon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #60E796 0%, #47C08D 100%);
-
+  background: linear-gradient(180deg, #60e796 0%, #47c08d 100%);
 }
 
+/* service section end */
 
+/* Pricing section start */
+
+#pricing-section {
+  margin-top: 200px;
+}
+.pricing-text {
+  font-size: 16px;
+  width: 210px;
+  line-height: 30px;
+}
+.card1-btn1 {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: linear-gradient(270deg, #ffac77 0%, #fd8b94 100%);
+  box-shadow: 0px 3px 12px;
+  border-radius: 48px;
+  padding: 18px 50px;
+}
+.card2-btn2{
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: linear-gradient(270deg, #07B7FF 0%, #489CFF 100%);
+  box-shadow: 0px 3px 12px;
+  border-radius: 48px;
+  padding: 18px 50px;
+
+}
+.card3-btn3{
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  background: linear-gradient(270deg, #FEB500 0%, #FE8200 100%);
+  box-shadow: 0px 3px 12px;
+  border-radius: 48px;
+  padding: 18px 50px;
+
+}
 
 @media (max-width: 575) {
   .container {

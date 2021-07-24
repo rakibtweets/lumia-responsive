@@ -70,7 +70,7 @@ p {
 .banner-header {
   font-size: 50px;
 }
-.banner-item{
+.banner-item {
   border: 2px sold red;
 }
 
@@ -140,17 +140,14 @@ p {
 .customer-counting {
   position: relative;
 }
-#customer-banner{
+#customer-banner {
   background: linear-gradient(266.96deg, #9895fb 2.05%, #7d79fb 100.29%);
-
 }
 .counting-area {
- 
   height: 290px;
 }
 .counting-area h4,
-.counting-area p
-{
+.counting-area p {
   color: white;
 }
 .counting-area p {
@@ -167,9 +164,28 @@ p {
   border-radius: 15px;
 }
 
-@media(max-width:575){
-  .container{
-    width: 450px; 
+/* customer counting end */
+
+/* Marketing section start */
+
+#marketing-section {
+  margin-top: 150px;
+}
+.article h1{
+  font-size: 35px;
+}
+.article p {
+  font-size: 16px;
+  text-align: justify;
+}
+.article img {
+  width: 482px;
+  height: 355px;
+}
+
+@media (max-width: 575) {
+  .container {
+    width: 80%;
     margin: 0 auto;
   }
 }

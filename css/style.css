@@ -140,8 +140,12 @@ p {
 .customer-counting {
   position: relative;
 }
-.counting-area {
+#customer-banner{
   background: linear-gradient(266.96deg, #9895fb 2.05%, #7d79fb 100.29%);
+
+}
+.counting-area {
+ 
   height: 290px;
 }
 .counting-area h4,
@@ -160,4 +164,11 @@ p {
   background-color: white;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+}
+
+@media(max-width:575){
+  .container{
+    width: 450px; 
+    margin: 0 auto;
+  }
 }

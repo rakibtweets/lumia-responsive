@@ -26,7 +26,9 @@ p {
 /* Unitilities end */
 
 /* header style start */
-
+.navbar{
+  background-color: rgba(243, 233, 233, 0.445);
+}
 .brand-logo {
   font-weight: 700;
   color: #4a4d60;
@@ -67,6 +69,9 @@ p {
 /* Navbar end */
 
 /* Banner section start */
+#landing-banner{
+  margin-top: 120px;
+}
 .banner-header {
   font-size: 50px;
 }

@@ -315,6 +315,13 @@ p {
   z-index: 111;
 }
 
+/* Footer Section start */
+#footer{
+  margin-top: 100px;
+  height: 350px;
+  background-color: #52507C;
+}
+
 
 @media (max-width: 575) {
   .container {

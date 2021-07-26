@@ -275,10 +275,48 @@ p {
 /* Pricing section end */
 
 /* blog section start */
-.blog-bgc{
+.blog-bgc,.about-header{
   background-color: #9895FB;
   height: 180px;
 }
+/* blog section end */
+
+/* Experience area start */
+#experiece-area{
+  height: 582px;
+}
+.grey-bgc{
+  background-color: #444651;
+}
+.white-circle{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+}
+.our-experience{
+  background-color: #9895FB;
+}
+.experience-list{
+  list-style: none;
+  line-height: 2em;
+  position: relative;
+}
+.experience-list::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../images/logo-icon/bullet.svg);
+  background-size: contain;
+ background-repeat: repeat;
+  position: absolute;
+ left: -25px;
+ top: 8px;
+
+  z-index: 111;
+
+}
+
 
 @media (max-width: 575) {
   .container {

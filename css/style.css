@@ -272,6 +272,13 @@ p {
   padding: 18px 50px;
 
 }
+/* Pricing section end */
+
+/* blog section start */
+.blog-bgc{
+  background-color: #9895FB;
+  height: 180px;
+}
 
 @media (max-width: 575) {
   .container {

@@ -1,328 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lumia</title>
     <!-- Font Awesome Link -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CND Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-     <!-- Google Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS style link -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container">
-              <a class="navbar-brand brand-logo" href="#">Lumia</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-bars  menu-icon ms-auto"></i></span>
-              </button>
-              <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav text-center ms-auto ">
-                  <li class="nav-item">
-                    <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#pricing-section">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about-us">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>  
-                </ul>
-                <button class="btn nav-btn  text-center">Get Started</button>
-              </div>
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+          <a class="navbar-brand brand-logo" href="#">Lumia</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fas fa-bars menu-icon ms-auto"></i></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarNav">
+            <ul class="navbar-nav text-center ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing-section">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="btn nav-btn text-center">Get Started</button>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- Landing Banner section start -->
+
+      <section id="landing-banner">
+        <div class="container">
+          <div
+            class="
+              banner-item
+              d-block d-md-flex
+              justify-content-center
+              align-content-center
+              my-5
+            "
+          >
+            <div class="banner-info col-12 col-md-6 mb-5">
+              <h1 class="banner-header fw-bold">
+                Convert and Keep more customers from your location
+              </h1>
+              <p class="py-3">
+                Why I say old chap that is spiffing off his nut arse pear shaped
+                plastered Jeffrey bodge barney some dodgy.!!
+              </p>
+              <a href="#" class="banner-btn text-white">Begin Today</a>
             </div>
-          </nav>
-          <!-- navbar end -->
-
-          <!-- Landing Banner section start -->
-
-          <section id="landing-banner">
-            <div class="container">
-              <div class="banner-item  d-block d-md-flex justify-content-center align-content-center my-5">
-                <div class="banner-info col-12 col-md-6 mb-5">
-                  <h1 class=" banner-header fw-bold">Convert and Keep more customers from your location</h1>
-                  <p class=" py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!
-                    
-                  </p>
-                  <a href="#" class="banner-btn text-white ">Begin Today</a>
-
-                </div>
-                <div class="banner-img col-12 col-md-6 ">
-                  <img class=" img-fluid"   src="images/banner-img.png" alt="">
-                </div>
-              </div>
+            <div class="banner-img col-12 col-md-6">
+              <img class="img-fluid" src="images/banner-img.png" alt="" />
             </div>
-          </section>
+          </div>
+        </div>
+      </section>
 
-          <!-- Banner section end -->
-
+      <!-- Banner section end -->
     </header>
-
 
     <!-- Main sectio start -->
 
     <main>
-
       <section id="info-blogs" class="my-5 py-5">
         <div class="container">
-          <div class="row row-cols-1 g-4 row-cols-md-2 row-cols-lg-3 d-md-flex justify-content-center align-items-center info-cards">
-            <div class="col d-block justify-content-center  d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center  p-5">
-              <div class="card-logo notepad-icon d-flex justify-content-center align-items-center">
-                <img  src="images/logo-icon/notepad.svg" class=" img-fluid " alt="notepad-icon">
-              </div>
+          <div
+            class="
+              row row-cols-1
+              g-4
+              row-cols-md-2 row-cols-lg-3
+              d-md-flex
+              justify-content-center
+              align-items-center
+              info-cards
+            "
+          >
+            <div class="col d-block justify-content-center d-lg-flex">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    card-logo
+                    notepad-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/notepad.svg"
+                    class="img-fluid"
+                    alt="notepad-icon"
+                  />
+                </div>
                 <div class="card-body text-center my-3">
                   <h3 class="card-title">Export Presets</h3>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
+                  <p class="card-text">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center  p-5">
-              <div class="card-logo atom-icon d-flex justify-content-center align-items-center">
-                <img  src="images/logo-icon/atom 2.svg" class=" img-fluid " alt="notepad-icon">
-              </div>
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    card-logo
+                    atom-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/atom 2.svg"
+                    class="img-fluid"
+                    alt="notepad-icon"
+                  />
+                </div>
                 <div class="card-body text-center my-3">
                   <h3 class="card-title">Grid and Guides</h3>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
+                  <p class="card-text">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center  p-5">
-              <div class="card-logo bell-icon d-flex justify-content-center align-items-center">
-                <img   src="images/logo-icon/bell 1.svg" class=" img-fluid" alt="notepad icon">
-              </div>
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    card-logo
+                    bell-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/bell 1.svg"
+                    class="img-fluid"
+                    alt="notepad icon"
+                  />
+                </div>
                 <div class="card-body text-center my-3">
                   <h3 class="card-title">Prototyping</h3>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
+                  <p class="card-text">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-
 
       <section id="article-section" class="my-5 py-2">
         <div class="container">
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-            <div class="col col-lg-6 d-block d-lg-flex     align-items-center justify-content-center">
+            <div
+              class="
+                col col-lg-6
+                d-block d-lg-flex
+                align-items-center
+                justify-content-center
+              "
+            >
               <div class="article-img">
-                <img class=" img-fluid m-auto"  src="images/social-mobile.png" alt="Article-images">
+                <img
+                  class="img-fluid m-auto"
+                  src="images/social-mobile.png"
+                  alt="Article-images"
+                />
               </div>
-              </div>
-              <div class="col col-lg-6 d-block d-lg-flex     align-items-center justify-content-center">
-               <div class="article-details ">
-                <h1 class=" fw-bold">Why I say old chap that is spiffing bodge, blag pardon.</h1>
-                <p class="  py-4 small">Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy cras tickety-boo squiffy. Starkers dropped a clanger lurgy is cack excuse my French what a plonker blower.!
-
-                  Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy cras tickety-boo squiffy. Starkers dropped a clanger lurgy is cack excuse my French what a plonker blower.!
+            </div>
+            <div
+              class="
+                col col-lg-6
+                d-block d-lg-flex
+                align-items-center
+                justify-content-center
+              "
+            >
+              <div class="article-details">
+                <h1 class="fw-bold">
+                  Why I say old chap that is spiffing bodge, blag pardon.
+                </h1>
+                <p class="py-4 small">
+                  Why I say old chap that is spiffing bodge, blag pardon me
+                  buggered mufty Oxford butty bubble and squeak wind up, brown
+                  bread the full monty bloke ruddy cras tickety-boo squiffy.
+                  Starkers dropped a clanger lurgy is cack excuse my French what
+                  a plonker blower.! Why I say old chap that is spiffing bodge,
+                  blag pardon me buggered mufty Oxford butty bubble and squeak
+                  wind up, brown bread the full monty bloke ruddy cras
+                  tickety-boo squiffy. Starkers dropped a clanger lurgy is cack
+                  excuse my French what a plonker blower.!
                 </p>
-               <div>
-                <a href="#" class="article-btn text-white">Begin Today</a>
-               </div>
+                <div>
+                  <a href="#" class="article-btn text-white">Begin Today</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
 
       <section id="customer-banner" class="sponsore">
         <div class="container">
           <div class="customer-counting d-none d-lg-block">
-           <div class="counting-area  d-lg-flex justify-content-lg-evenly align-items-md-center">
-              <div class=" text-white text-center">
-                <h4 class=" fw-bold">335</h4>
-                <p class=" ">Cutomer</p>
+            <div
+              class="
+                counting-area
+                d-lg-flex
+                justify-content-lg-evenly
+                align-items-md-center
+              "
+            >
+              <div class="text-white text-center">
+                <h4 class="fw-bold">335</h4>
+                <p class="">Cutomer</p>
               </div>
-              <div class=" text-white text-center">
-                <h4 class=" fw-bold">335</h4>
-                <p class=" ">Cutomer</p>
+              <div class="text-white text-center">
+                <h4 class="fw-bold">335</h4>
+                <p class="">Cutomer</p>
               </div>
-              <div class="  text-center">
-                <h4 class=" fw-bold">335</h4>
-                <p class=" ">Cutomer</p>
+              <div class="text-center">
+                <h4 class="fw-bold">335</h4>
+                <p class="">Cutomer</p>
               </div>
-              <div class=" text-white text-center">
-                <h4 class=" fw-bold">335</h4>
-                <p class=" ">Cutomer</p>
+              <div class="text-white text-center">
+                <h4 class="fw-bold">335</h4>
+                <p class="">Cutomer</p>
               </div>
-              <div class=" text-white text-center">
-                <h4 class=" fw-bold">335</h4>
-                <p class=" ">Cutomer</p>
+              <div class="text-white text-center">
+                <h4 class="fw-bold">335</h4>
+                <p class="">Cutomer</p>
               </div>
-           </div>
-           <div class="sponsore-logos w-75 d-block d-md-flex  justify-content-md-evenly align-items-md-center ">
-
-             <div class="sponsore-logo">
-               <img class=" img-fluid" src="images/sponsore-logo.png" alt="">
+            </div>
+            <div
+              class="
+                sponsore-logos
+                w-75
+                d-block d-md-flex
+                justify-content-md-evenly
+                align-items-md-center
+              "
+            >
+              <div class="sponsore-logo">
+                <img class="img-fluid" src="images/sponsore-logo.png" alt="" />
               </div>
-             <div class="sponsore-logo">
-               <img class=" img-fluid" src="images/sponsore-logo.png" alt="">
+              <div class="sponsore-logo">
+                <img class="img-fluid" src="images/sponsore-logo.png" alt="" />
               </div>
-             <div class="sponsore-logo">
-               <img class=" img-fluid" src="images/sponsore-logo.png" alt="">
+              <div class="sponsore-logo">
+                <img class="img-fluid" src="images/sponsore-logo.png" alt="" />
               </div>
-             <div class="sponsore-logo">
-               <img class=" img-fluid" src="images/sponsore-logo.png" alt="">
+              <div class="sponsore-logo">
+                <img class="img-fluid" src="images/sponsore-logo.png" alt="" />
               </div>
-             <div class="sponsore-logo">
-               <img class=" img-fluid" src="images/sponsore-logo.png" alt="">
+              <div class="sponsore-logo">
+                <img class="img-fluid" src="images/sponsore-logo.png" alt="" />
               </div>
-           </div>
-           
-
+            </div>
           </div>
         </div>
       </section>
-
 
       <section id="marketing-section">
         <div class="container">
-          <div class="marketing-article d-flex flex-column flex-md-row justify-content-center align-items-center ">
+          <div
+            class="
+              marketing-article
+              d-flex
+              flex-column flex-md-row
+              justify-content-center
+              align-items-center
+            "
+          >
             <div class="article col-md-6">
-              <h1>
-                Social Media Marketing is the Best Ever
-              </h1>
-              <p class=" py-2">Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty bloke ruddy cras tickety-boo squiffy. Starkers dropped a clanger lurgy is cack excuse my French what a plonker blower.!
-                Why I say old chap that is spiffing bodge, blag pardon me buggered mufty Oxford butty bubble and squeak wind up, brown bread the full monty.!</p>
-                <div class=" py-4 mb-5 ">
-                  <a href="#" class="article-btn text-white">Begin Today</a>
-                </div>
+              <h1>Social Media Marketing is the Best Ever</h1>
+              <p class="py-2">
+                Why I say old chap that is spiffing bodge, blag pardon me
+                buggered mufty Oxford butty bubble and squeak wind up, brown
+                bread the full monty bloke ruddy cras tickety-boo squiffy.
+                Starkers dropped a clanger lurgy is cack excuse my French what a
+                plonker blower.! Why I say old chap that is spiffing bodge, blag
+                pardon me buggered mufty Oxford butty bubble and squeak wind up,
+                brown bread the full monty.!
+              </p>
+              <div class="py-4 mb-5">
+                <a href="#" class="article-btn text-white">Begin Today</a>
+              </div>
             </div>
             <div class="marketing-img py-md-5 py-lg-0 col-md-6">
-              <img class=" img-fluid" src="images/clock-img.png" alt="Clock-image">
-
-          </div>
-          
-
+              <img
+                class="img-fluid"
+                src="images/clock-img.png"
+                alt="Clock-image"
+              />
+            </div>
           </div>
         </div>
       </section>
-
-
 
       <section id="services">
         <div class="container">
           <h1 class="section-name fw-bold text-center">Our Services</h1>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex g-4 my-5">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex g-4 my-5"
+          >
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5">
-               <div class=" text-icon d-flex justify-content-center align-items-center">
-                <img src="images/logo-icon/text-icon.svg" alt="text-svg-icon">
-               </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    text-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/text-icon.svg"
+                    alt="text-svg-icon"
+                  />
+                </div>
+
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5">
-                <div class=" user-icon d-flex justify-content-center align-items-center">
-                  <img src="images/logo-icon/user-1.svg" alt="text-svg-icon">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    user-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img src="images/logo-icon/user-1.svg" alt="text-svg-icon" />
                 </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5 ">
-                <div class="achive-icon d-flex justify-content-center align-items-center">
-                  <img src="images/logo-icon/achievement-1.svg" alt="achive-svg-icon">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    achive-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/achievement-1.svg"
+                    alt="achive-svg-icon"
+                  />
                 </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5 ">
-                <div class="verify-icon d-flex justify-content-center align-items-center">
-                  <img src="images/logo-icon/verified-1.svg" alt="text-svg-icon">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    verify-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/verified-1.svg"
+                    alt="text-svg-icon"
+                  />
                 </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5 ">
-                <div class="tick-icon d-flex justify-content-center align-items-center">
-                  <img  src="images/logo-icon/tick-1.svg" alt="text-svg-icon">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    tick-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img src="images/logo-icon/tick-1.svg" alt="text-svg-icon" />
                 </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text text-center py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text text-center py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-                
-              <div class="card d-flex justify-content-center align-items-center p-5 ">
-                <div class="clock-icon d-flex justify-content-center align-items-center">
-                  <img  src="images/logo-icon/sand-clock.svg" alt="text-svg-icon">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div
+                  class="
+                    clock-icon
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img
+                    src="images/logo-icon/sand-clock.svg"
+                    alt="text-svg-icon"
+                  />
                 </div>
-               <div class="card-body text-center py-3">
-                 <h4 class="card-title">Export Presets</h4>
-                <p class="card-text py-3">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-               </div>
+                <div class="card-body text-center py-3">
+                  <h4 class="card-title">Export Presets</h4>
+                  <p class="card-text py-3">
+                    Why I say old chap that is spiffing off his nut arse pear
+                    shaped plastered Jeffrey bodge barney some dodgy.!!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
-
       <section id="pricing-section">
         <div class="container">
-          <h1 class=" fw-bold text-center">Pricing</h1>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 d-md-flex justify-content-center align-items-center mt-5 pt-2 g-4">
+          <h1 class="fw-bold text-center">Pricing</h1>
+          <div
+            class="
+              row row-cols-1 row-cols-md-2 row-cols-lg-3
+              d-md-flex
+              justify-content-center
+              align-items-center
+              mt-5
+              pt-2
+              g-4
+            "
+          >
             <div class="col d-block d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center p-5">
-                <div >
-                  <img class=" img-fluid" src="images/logo-icon/rocket-startup.svg" alt="">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="images/logo-icon/rocket-startup.svg"
+                    alt=""
+                  />
                 </div>
-                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <div
+                  class="
+                    card-body
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <h4 class="card-title fw-bold pt-4">Basic</h4>
                   <p class="card-text small">Per Month</p>
                   <h1 class="price-amount fw-bold py-4">$19.99</h1>
-                  <p class="pricing-text small ">10GB Bandwidth Internet
-                    Business & Financ Analysing
-                    15 Social Media Reviews
-                    Customer Managemet
-                    24/7 Support
+                  <p class="pricing-text small">
+                    10GB Bandwidth Internet Business & Financ Analysing 15
+                    Social Media Reviews Customer Managemet 24/7 Support
                   </p>
                 </div>
                 <div class="pricing-footer">
@@ -331,19 +629,37 @@
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center p-5">
-                <div >
-                  <img class=" img-fluid" src="images/logo-icon/headphone.svg" alt="">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="images/logo-icon/headphone.svg"
+                    alt=""
+                  />
                 </div>
-                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <div
+                  class="
+                    card-body
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <h4 class="card-title fw-bold pt-4">Basic</h4>
                   <p class="card-text small">Per Month</p>
                   <h1 class="price-amount fw-bold py-4">$19.99</h1>
-                  <p class="pricing-text small ">10GB Bandwidth Internet
-                    Business & Financ Analysing
-                    15 Social Media Reviews
-                    Customer Managemet
-                    24/7 Support
+                  <p class="pricing-text small">
+                    10GB Bandwidth Internet Business & Financ Analysing 15
+                    Social Media Reviews Customer Managemet 24/7 Support
                   </p>
                 </div>
                 <div class="pricing-footer">
@@ -352,19 +668,37 @@
               </div>
             </div>
             <div class="col d-block d-lg-flex">
-              <div class="card d-flex justify-content-center align-items-center p-5">
-                <div >
-                  <img class=" img-fluid" src="images/logo-icon/int-nest.svg" alt="">
+              <div
+                class="
+                  card
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                  p-5
+                "
+              >
+                <div>
+                  <img
+                    class="img-fluid"
+                    src="images/logo-icon/int-nest.svg"
+                    alt=""
+                  />
                 </div>
-                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <div
+                  class="
+                    card-body
+                    d-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
                   <h4 class="card-title fw-bold pt-4">Basic</h4>
                   <p class="card-text small">Per Month</p>
                   <h1 class="price-amount fw-bold py-4">$19.99</h1>
-                  <p class="pricing-text small ">10GB Bandwidth Internet
-                    Business & Financ Analysing
-                    15 Social Media Reviews
-                    Customer Managemet
-                    24/7 Support
+                  <p class="pricing-text small">
+                    10GB Bandwidth Internet Business & Financ Analysing 15
+                    Social Media Reviews Customer Managemet 24/7 Support
                   </p>
                 </div>
                 <div class="pricing-footer">
@@ -376,193 +710,342 @@
         </div>
       </section>
 
-
-
-
-
       <section id="blog" class="my-5 py-5">
         <div class="container">
-         <div class="blog-news">
-          <div class="blog-heading text-center blog-bgc d-flex flex-column justify-content-center align-content-center ">
-            <h6 class="text-white">Blog</h6>
-            <h1 class="text-white">Latest News</h1>
+          <div class="blog-news">
+            <div
+              class="
+                blog-heading
+                text-center
+                blog-bgc
+                d-flex
+                flex-column
+                justify-content-center
+                align-content-center
+              "
+            >
+              <h6 class="text-white">Blog</h6>
+              <h1 class="text-white">Latest News</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-md-flex">
+                <div class="card">
+                  <img
+                    class="img-fluid"
+                    src="images/presentatoin-img.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      How Wireless Technology more Changing Business.
+                    </h4>
+                    <p class="card-text">
+                      Why I say old chap that is spiffing off his nut arse pear
+                      shaped plastered Jeffrey bodge barney some dodgy.!!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-            <div class="col d-block d-md-flex">
-              <div class="card">
-                <img class=" img-fluid" src="images/presentatoin-img.png" alt="">
-                <div class="card-body">
-                  <h4 class="card-title">How Wireless Technology more Changing Business.</h4>
-                  <p class="card-text">Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-         </div>
         </div>
       </section>
 
+      <!-- Blog section End -->
 
-<!-- Blog section End -->
+      <!-- About Us section start -->
 
-<!-- About Us section start -->
+      <section id="about-us" class="my-5 py-5">
+        <div class="container">
+          <div
+            class="
+              about-header
+              d-flex
+              flex-column
+              justify-content-center
+              align-content-center
+            "
+          >
+            <h1 class="text-white m-auto">About Us</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-md-1 mt-5 py-4 g-4">
+            <div
+              class="
+                col col-md-6
+                d-flex
+                justify-content-center
+                align-content-center
+                p-3
+              "
+            >
+              <img class="img-fluid" src="images/team-member.png" alt="" />
+            </div>
+            <div class="col col-md-6">
+              <h1 class="heading-text">
+                Exclusive Agency For Technology Provide Soluation
+              </h1>
+              <p class="my-3">
+                Grursus mal suada faci lisis Lorem ipsum dolarorit ametion
+                consectetur elit. The Vesti at bulum nec odio aea the dumm
+                ipsumm ipsum dolocons is suada a and fadolorit to the
+                consectetur elit. Grursus mal suada faci lisis Lorem dolarorit
+                the ametion consectetur elit. Vesti at bulum nec odio aea the
+                dumm ipsumm ipsum dolocons is suada a and fadolorit to the
+                consectetur . Grursus mal suada faci lisis Lorem ipsum dolarorit
+                ametion consectetur elit. Vesti at bulum nec odio aea the dumm
+                ipsumm ipsum dolocons is suada a and fadolorit to the
+                consectetur elit.
+              </p>
 
-
-<section id="about-us" class="my-5 py-5">
-  <div class="container">
-    <div class="about-header d-flex flex-column justify-content-center align-content-center">
-      <h1 class="text-white m-auto">About Us</h1>
-    </div>
-    <div class="row row-cols-1 row-cols-md-1 mt-5 py-4 g-4">
-      <div class="col col-md-6 d-flex justify-content-center align-content-center p-3">
-        <img class="img-fluid" src="images/team-member.png" alt="">
-      </div>
-      <div class="col col-md-6">
-        <h1 class=" heading-text">Exclusive Agency For Technology Provide Soluation</h1>
-        <p class=" my-3">Grursus mal suada faci lisis Lorem ipsum dolarorit ametion consectetur elit. The Vesti at bulum nec odio aea the dumm ipsumm ipsum dolocons is suada a and fadolorit to the consectetur elit. Grursus mal suada faci lisis Lorem dolarorit the ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum dolocons is suada a and fadolorit to the consectetur .
-
-          Grursus mal suada faci lisis Lorem ipsum dolarorit ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum dolocons is suada a and fadolorit to the consectetur elit.</p>
-
-          <div class=" my-5">
-            <a href="#" class="article-btn text-white">Begin Today</a>
+              <div class="my-5">
+                <a href="#" class="article-btn text-white">Begin Today</a>
+              </div>
+            </div>
           </div>
 
-      </div>
-    </div>
-
-
-    <div class="experiece-area my-5 py-5 ">
-      <div class="row row-cols-1 row-cols-md-2 ">
-        <div class="grey-bgc col col-md-6 d-flex justify-content-center py-5">
-          <div class="white-circle my-auto">
-  
+          <div class="experiece-area my-5 py-5">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div
+                class="grey-bgc col col-md-6 d-flex justify-content-center py-5"
+              >
+                <div class="white-circle my-auto"></div>
+              </div>
+              <div class="our-experience col col-md-6 p-5">
+                <h1 class="text-white">We Work With 20 Years Of Experience</h1>
+                <p class="text-white small">
+                  Grursus mal suada faci lisis Lorem ipsum dolarorit more a
+                  ametion that consectetur elit. Vesti at bulum nec odio aea the
+                  dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit.
+                </p>
+                <div class="list-item text-white">
+                  <ul>
+                    <li class="experience-list">Web Design & Development</li>
+                    <li class="experience-list">Best Leadership</li>
+                    <li class="experience-list">Pixel Perfect</li>
+                    <li class="experience-list">Online Support</li>
+                    <li class="experience-list">Expert Team</li>
+                    <li class="experience-list">Quick Access</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="our-experience col col-md-6 p-5">
-          <h1 class=" text-white">We Work With 20 Years Of Experience</h1>
-          <p class=" text-white small">Grursus mal suada faci lisis Lorem ipsum dolarorit more a ametion that consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit.</p>
-          <div class="list-item text-white ">
-            <ul>
-              <li class="experience-list">Web Design & Development</li>
-              <li class="experience-list">Best Leadership </li>
-              <li class="experience-list">Pixel Perfect</li>
-              <li class="experience-list">Online Support</li>
-              <li class="experience-list">Expert Team</li>
-              <li class="experience-list">Quick Access</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> 
 
-    <div class="team-member">
-      <div class="heading-team text-center my-5 pt-5">
-        <h6 class=" text-uppercase fw-bold">Our Best</h6>
-        <h1 class="">Dedicated Team </h1>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 d-flex justify-content-center ">
-        <div class="col d-block d-lg-flex">
-          <div class="card member-profile p-4">
-            <img class=" img-fluid" src="images/team-member.png" alt="">
-            <div class="card-body text-center">
-              <h2 class="member-name">Michael Jackson</h2>
-              <p class="member-bio small">Ul / Ux Designer</p>
+          <div class="team-member">
+            <div class="heading-team text-center my-5 pt-5">
+              <h6 class="text-uppercase fw-bold">Our Best</h6>
+              <h1 class="">Dedicated Team</h1>
+            </div>
+            <div
+              class="
+                row row-cols-1 row-cols-md-2 row-cols-lg-3
+                g-4
+                d-flex
+                justify-content-center
+              "
+            >
+              <div class="col d-block d-lg-flex">
+                <div class="card member-profile p-4">
+                  <img class="img-fluid" src="images/team-member.png" alt="" />
+                  <div class="card-body text-center">
+                    <h2 class="member-name">Michael Jackson</h2>
+                    <p class="member-bio small">Ul / Ux Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-lg-flex">
+                <div class="card member-profile p-4">
+                  <img class="img-fluid" src="images/team-member.png" alt="" />
+                  <div class="card-body text-center">
+                    <h2 class="member-name">Michael Jackson</h2>
+                    <p class="member-bio small">Ul / Ux Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col d-block d-lg-flex">
+                <div class="card member-profile p-4">
+                  <img class="img-fluid" src="images/team-member.png" alt="" />
+                  <div class="card-body text-center">
+                    <h2 class="member-name">Michael Jackson</h2>
+                    <p class="member-bio small">Ul / Ux Designer</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col d-block d-lg-flex">
-          <div class="card member-profile p-4">
-            <img class=" img-fluid" src="images/team-member.png" alt="">
-            <div class="card-body text-center">
-              <h2 class="member-name">Michael Jackson</h2>
-              <p class="member-bio small">Ul / Ux Designer</p>
+      </section>
+
+      <section id="contact" class="mt-t pt-5">
+        <div class="container w-75">
+          <h1 class="contact-heading text-center my-5">Contact Us</h1>
+          <div class="row row-cols-1 row-cols-lg-2 g-5">
+            <div class="col col-md-4 d-flex justify-content-center justify-content-lg-start">
+              <div class="contact-details">
+                <div class="contact-info d-flex gap-3">
+                  <div class="icon">
+                    <i class="far fa-envelope fa-3x"></i>
+                  </div>
+                  <div class="adress">
+                    <h4>Email and Phone</h4>
+                    <p class="small">
+                      example@gmail.com <br />
+                      019xxxxxxxxx
+                    </p>
+                  </div>
+                </div>
+                <div class="contact-info d-flex gap-3">
+                  <div class="icon">
+                    <i class="fas fa-map-marker-alt fa-3x"></i>
+                  </div>
+                  <div class="adress">
+                    <h4>Our Location</h4>
+                    <p class="small">
+                      29 Street, Melbourne City
+                      <br />example@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <div class="contact-info d-flex gap-3">
+                  <div class="icon">
+                    <i class="far fa-comments fa-3x"></i>
+                  </div>
+                  <div class="adress">
+                    <h4>Mail or Phone</h4>
+                    <p class="small">
+                      example@gmail.com <br />
+                      019xxxxxxxxx
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-md-8">
+              <form action="" >
+                <div class="mb-3 d-flex justify-content-between gap-5">
+                 <div class=" w-50">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                 </div>
+                  <div class=" w-50">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                  
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder=" Message" rows="6">
+                  </textarea>
+                  <button class="btn btn-danger fw-bold w-25 mt-4" type="submit">Send</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-        <div class="col d-block d-lg-flex">
-          <div class="card member-profile p-4">
-            <img class=" img-fluid" src="images/team-member.png" alt="">
-            <div class="card-body text-center">
-              <h2 class="member-name">Michael Jackson</h2>
-              <p class="member-bio small">Ul / Ux Designer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-  </div>
-</section>
-
-
-
-
-
-
-
+      </section>
     </main>
 
-
-
-
-
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -26,7 +26,7 @@ p {
 /* Unitilities end */
 
 /* header style start */
-.navbar{
+.navbar {
   background-color: rgba(243, 233, 233, 0.445);
 }
 .brand-logo {
@@ -69,7 +69,7 @@ p {
 /* Navbar end */
 
 /* Banner section start */
-#landing-banner{
+#landing-banner {
   margin-top: 120px;
 }
 .banner-header {
@@ -252,69 +252,67 @@ p {
   border-radius: 48px;
   padding: 18px 50px;
 }
-.card2-btn2{
+.card2-btn2 {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
-  background: linear-gradient(270deg, #07B7FF 0%, #489CFF 100%);
+  background: linear-gradient(270deg, #07b7ff 0%, #489cff 100%);
   box-shadow: 0px 3px 12px;
   border-radius: 48px;
   padding: 18px 50px;
-
 }
-.card3-btn3{
+.card3-btn3 {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
-  background: linear-gradient(270deg, #FEB500 0%, #FE8200 100%);
+  background: linear-gradient(270deg, #feb500 0%, #fe8200 100%);
   box-shadow: 0px 3px 12px;
   border-radius: 48px;
   padding: 18px 50px;
-
 }
 /* Pricing section end */
 
 /* blog section start */
-.blog-bgc,.about-header{
-  background-color: #9895FB;
+.blog-bgc,
+.about-header {
+  background-color: #9895fb;
   height: 180px;
 }
 /* blog section end */
 
 /* Experience area start */
-#experiece-area{
+#experiece-area {
   height: 582px;
 }
-.grey-bgc{
+.grey-bgc {
   background-color: #444651;
 }
-.white-circle{
+.white-circle {
   width: 100px;
   height: 100px;
   background-color: white;
   border-radius: 50%;
 }
-.our-experience{
-  background-color: #9895FB;
+.our-experience {
+  background-color: #9895fb;
 }
-.experience-list{
+.experience-list {
   list-style: none;
   line-height: 2em;
   position: relative;
 }
-.experience-list::before{
+.experience-list::before {
   content: "";
   width: 20px;
   height: 20px;
   background: url(../images/logo-icon/bullet.svg);
   background-size: contain;
- background-repeat: repeat;
+  background-repeat: repeat;
   position: absolute;
- left: -25px;
- top: 8px;
+  left: -25px;
+  top: 8px;
 
   z-index: 111;
-
 }
 
 
